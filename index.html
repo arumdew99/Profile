@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 32px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #3498db;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .bio {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 24px 0;
+            text-align: left;
+        }
+        .info-list li {
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 8px;
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.2s;
+        }
+        .social-links a:hover {
+            color: #217dbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="https://via.placeholder.com/120" alt="Profile Photo" class="profile-img">
+        <h1>Jane Doe</h1>
+        <p class="bio">Web Developer & Designer passionate about creating beautiful and functional user experiences.</p>
+        <ul class="info-list">
+            <li><strong>Email:</strong> jane.doe@email.com</li>
+            <li><strong>Location:</strong> New York, USA</li>
+            <li><strong>Skills:</strong> HTML, CSS, JavaScript, React</li>
+        </ul>
+        <div class="social-links">
+            <a href="#" title="GitHub">GitHub</a>
+            <a href="#" title="LinkedIn">LinkedIn</a>
+            <a href="#" title="Twitter">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
